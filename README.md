@@ -1,36 +1,37 @@
-## Project Title
-# Plant Disease Detection from Images using CNN
+# Plant Disease Detection from Images
 
 ## Objective
-Develop a comprehensive Streamlit application that allows users to upload images of plant leaves and accurately predict the presence and type of plant disease using a Convolutional Neural Network (CNN) model. This project involves designing, implementing, and optimizing a solution that integrates machine learning, computer vision, and user interface development.
+Develop a Streamlit application that enables users to upload images of plant leaves and accurately predict the presence and type of plant disease using a Convolutional Neural Network (CNN) model.
 
 ## Project Scope
-- **End-to-End Development:** Responsible for all aspects of the project, from setting up the image upload interface in Streamlit to training the CNN model and delivering a functional, user-friendly application.
-- **Real-World Relevance:** Address practical applications in agriculture, providing a tool that helps farmers or gardeners quickly diagnose plant diseases and take appropriate actions.
+- **End-to-End Development:** Responsible for all project components, including data preprocessing, CNN training, and building a functional application.
+- **Real-World Relevance:** Provide a tool for farmers and gardeners to quickly diagnose plant diseases.
 
 ## Key Components
-1. **User Interface Development:**
-   - Designed a Streamlit Application: Created a web interface that allows users to upload images of plant leaves.
-   - Ensured application usability with clear instructions and feedback for users.
 
-2. **Image Preprocessing:**
-   - Implemented image preprocessing steps such as resizing, normalization, and used the New Plant Diseases Dataset from Kaggle.
+### 1. Image Preprocessing
+- **Data Preparation:** Implement preprocessing steps like resizing and normalization.
+- **Dataset:** Utilize the New Plant Diseases Dataset from Kaggle.
 
-3. **Disease Classification:**
-   - Developed and trained a CNN model to classify plant diseases based on the uploaded images.
-   - Evaluated the model's performance against at least three pretrained models and implemented transfer learning for improved accuracy.
+### 2. Disease Classification
+- **CNN Model:** Define and train a custom CNN architecture for 30 epochs, achieving good evaluation scores.
+- **Transfer Learning:** Evaluate pretrained models (ResNet50, EfficientNetB0, DenseNet121) without modifications, then apply transfer learning by freezing layers and retraining the last layer for improved performance.
 
-4. **Performance and Optimization:**
-   - Assessed the CNN model’s performance using metrics like accuracy, precision, and recall.
-   - Ensured efficient application performance with minimal latency for real-time predictions.
+### 3. Performance and Optimization
+- **Model Evaluation:** Assess performance using accuracy, precision, and recall metrics.
+- **Optimization:** Ensure minimal latency for real-time predictions.
 
-5. **Testing:**
-   - Conducted extensive testing to ensure the application correctly predicts plant diseases and handles various image inputs effectively.
+### 4. User Interface Development
+- **Streamlit Application:** Develop a web interface that allows users to upload images of plant leaves and receive disease predictions.
+- **Usability:** Ensure an intuitive experience with clear instructions and feedback.
+
+### 5. Testing
+- **Testing:** Verify prediction accuracy and robustness with various image inputs.
 
 ## Expected Results
-- **Functional Application:** A Streamlit-based web application where users can upload images of plant leaves and receive predictions about plant diseases.
-- **Model Performance Report:** A detailed analysis of the CNN model’s performance, including accuracy and other evaluation metrics.
-- **User Guide:** Documentation covering how to use the application, interpret predictions, and provide feedback on potential issues.
+- **Functional Application:** A user-friendly Streamlit web application for plant disease detection.
+- **Model Performance Report:** Detailed evaluation of the CNN model’s performance metrics.
+- **User Guide:** Documentation for application usage and feedback.
 
 ## Tools and Technologies
 - **Programming Language:** Python
@@ -38,15 +39,14 @@ Develop a comprehensive Streamlit application that allows users to upload images
 - **Dataset:** New Plant Diseases Dataset from Kaggle
 
 ## Deliverables
-1. Streamlit Application: A web application for plant disease detection from uploaded leaf images.
-2. Codebase: Well-documented Python scripts for the CNN model, image preprocessing, and Streamlit interface.
-3. Trained Models: CNN models trained to classify plant diseases, including any pre-trained or fine-tuned models.
-4. Project Report: A comprehensive document covering the system’s design, implementation details, model performance, and user feedback.
-5. User Guide: Instructions for setting up and using the application.
+1. Streamlit Application
+2. Well-documented Python codebase
+3. Trained CNN models
+4. Comprehensive project report
+5. User guide for application setup and usage
 
 ## Project Guidelines
-- **Independent Work:** Completed all project components independently, demonstrating proficiency in CNNs, image processing, and web application development.
-- **Final Presentation:** Presented the application to faculty, showcasing its functionality, the CNN model’s performance, and any challenges faced during development.
+- **Independent Work:** Complete all components independently to demonstrate proficiency in CNNs, image processing, and web development.
+- **Final Presentation:** Present the application and its functionality to faculty.
 
-This project provides a valuable opportunity to apply CNN techniques to a real-world problem, offering practical benefits in the agricultural sector through automated plant disease detection.
-
+This project offers a valuable opportunity to apply CNN techniques to automate plant disease detection, providing practical benefits in agriculture.

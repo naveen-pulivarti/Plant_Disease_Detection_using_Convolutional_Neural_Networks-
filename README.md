@@ -54,5 +54,10 @@ The goal of this project is to develop a Streamlit application that enables user
 
 ## Model Performance Report
 
+> Custom model-ImprovedCNN loss and evaluation scores :-
+![ImrpvedCNN](screenshots/CustomCNN_scores.png)
+![ImrpvedCNN](screenshots/Custom_model_score.png)
+
+
 
 ## User Guide

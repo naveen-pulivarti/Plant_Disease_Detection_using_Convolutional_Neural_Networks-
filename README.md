@@ -46,7 +46,8 @@ The goal of this project is to develop a Streamlit application that enables user
 5. User guide for application setup and usage
 
 ## Screenshots of the application
-
+![Home Page](screenshots/App_ss2.png)
+![Disease detection](screenshots/App_ss1.png)
 
 ## Model Performance Report
 

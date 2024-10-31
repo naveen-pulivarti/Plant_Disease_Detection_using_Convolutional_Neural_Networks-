@@ -67,7 +67,7 @@ The goal of this project is to develop a Streamlit application that enables user
 #### Pre trained models evaluation scores After using Transfer Learning:-
 ![ImrpvedCNN](screenshots/Transferlearning_eval_scores.png)
 
-#### ResNet50 Model is the best performing out of the three pretrained models. And the test results with some new test images are:-
+#### ResNet50 Model is best performing model out of the three pretrained models. And the test results with some new test images are:-
 ![ImrpvedCNN](screenshots/ResNet50_preds.png)
 
 ### We can observe that though the evaluation scores for ResNet50 model compared to the ImprovedCNN model are slightly better, the predictions on new test images were more accurate with our custom ImprovedCNN model. Hence, I have used custom ImprovedCNN model in the streamlit app for disease detection. 

@@ -54,7 +54,7 @@ class ImprovedCNN(nn.Module):
 
 # Load the trained model
 model = ImprovedCNN().to(device)
-model.load_state_dict(torch.load(model_path, map_location=device))
+model.load_state_dict(torch.load(model_path, map_location=device, weights_only=True))
 model.eval()
 
 # Class names
@@ -188,7 +188,7 @@ with col2:
 # Right Column - Design or Image Placeholder
 with col3:
     # Add your design or image here
-    st.image("images\Design1.png", use_column_width=True)  # Adjust the image source and options
+    st.image("images/Design1.png", use_column_width=True)  # Adjust the image source and options
 
 
 

@@ -25,11 +25,12 @@ The goal of this project is to develop a Streamlit application that enables user
 - **Streamlit Application:** A user-friendly web interface was developed using Streamlit, allowing users to upload images of plant leaves and receive disease predictions instantly.
 - **Usability:** An intuitive experience was designed with clear instructions and feedback throughout the application.
 
-### 5. Testing
+### 5. Deployment and Testing
+- **Deployment:** The application is deployed on Streamlit Cloud, providing users with easy access to upload images of plant leaves and receive disease predictions instantly. 
 - **Testing:** The application was rigorously tested for prediction accuracy and robustness with various image inputs.
 
 ## Expected Results
-- **Functional Application:** A user-friendly Streamlit web application for effective plant disease detection was created.
+- **Functional Application:** A user-friendly Streamlit web application for effective plant disease detection was built and deployed.
 - **Model Performance Report:** Detailed evaluation of the CNN model’s performance metrics was documented.
 - **User Guide:** Documentation was prepared to assist users in setting up and using the application effectively.
 

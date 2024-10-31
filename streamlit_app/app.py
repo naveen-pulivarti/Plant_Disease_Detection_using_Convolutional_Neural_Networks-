@@ -132,7 +132,7 @@ col1, col2, col3 = st.columns([1, 4, 1])  # Adjust the width ratios as needed
 # Left Column - Design or Image Placeholder
 with col1:
     # Add your design or image here
-    st.image("images/border.png", use_column_width=True)  # Adjust the image source and options
+    st.image(os.path.join(os.path.dirname(__file__), 'images', 'border.png'), use_column_width=True)  # Adjust the image source and options
 # Center Column - Main Content
 with col2:
     st.markdown(
@@ -188,7 +188,7 @@ with col2:
 # Right Column - Design or Image Placeholder
 with col3:
     # Add your design or image here
-    st.image("images/border.png", use_column_width=True)  # Adjust the image source and options
+    st.image(os.path.join(os.path.dirname(__file__), 'images', 'border.png'), use_column_width=True)  # Adjust the image source and options
 
 
 

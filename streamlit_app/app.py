@@ -120,10 +120,10 @@ def predict(image):
     return class_map[predicted.item()]
 
 # Streamlit UI
-
+icon_path = os.path.join(os.path.dirname(__file__), 'images', 'im1.png')
 st.set_page_config(
     page_title="Plant Disease Detection",
-    page_icon="images/im1.png", 
+    page_icon=icon_path, 
     layout="wide"
 )
 # Create three columns, with the middle column being the largest

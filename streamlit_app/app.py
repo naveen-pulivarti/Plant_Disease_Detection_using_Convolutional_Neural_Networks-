@@ -132,7 +132,7 @@ col1, col2, col3 = st.columns([1, 4, 1])  # Adjust the width ratios as needed
 # Left Column - Design or Image Placeholder
 with col1:
     # Add your design or image here
-    st.image(os.path.join(os.path.dirname(__file__), 'images', 'border.jpg'), use_column_width=True)  # Adjust the image source and options
+    st.image(os.path.join(os.path.dirname(__file__), 'images', 'border.png'), use_column_width=True)  # Adjust the image source and options
 # Center Column - Main Content
 with col2:
     st.markdown(
@@ -142,7 +142,7 @@ with col2:
         """,
         unsafe_allow_html=True
     )
-    st.image(os.path.join(os.path.dirname(__file__), 'images', 'banner.png'), use_column_width=True)
+    st.image(os.path.join(os.path.dirname(__file__), 'images', 'banner.jpg'), use_column_width=True)
     uploaded_file = st.file_uploader("Upload an image of the plant leaf", type=["png", "jpg", "jpeg"], label_visibility="collapsed")
     # With type=["png", "jpg", "jpeg"] in st.file_uploader, users will only see options for those supported file types in the upload dialog,
 

@@ -1,5 +1,5 @@
 # Plant Disease Detection from Images
-![banner](screenshots/img22.png)
+![banner](screenshots/img22.jpeg)
 
 ## Objective
 The goal of this project is to develop a Streamlit application that enables users to upload images of plant leaves and accurately predict the presence and type of plant diseases using a Convolutional Neural Network (CNN) model.

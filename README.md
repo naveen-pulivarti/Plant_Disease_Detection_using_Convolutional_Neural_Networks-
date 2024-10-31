@@ -81,12 +81,14 @@ This project uses deep learning to detect plant diseases based on leaf images. F
 1. **Download the Dataset**  
    - Get the plant disease dataset from [Kaggle](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset).
    - Extract the zip file after downloading.
+   - This dataset consists of 38 classes(diseases or healthy state)
 
 ### 💾 Pre-Trained Model Checkpoint
 
 1. **Download the Saved Model**  
-   - Download the model weights from [Google Drive](#) (replace with actual link).
+   - Download the model weights from [Google Drive](https://drive.google.com/drive/folders/1aV1jon0PozYPncxlGzSo71PAegrDk0EI)
    - Place the downloaded files in a folder named `saved_models` in the project’s root directory.
+   - The saved model that i used in the app is named as "trained_model.pth"
 
 ### ⚙️ Installation
 

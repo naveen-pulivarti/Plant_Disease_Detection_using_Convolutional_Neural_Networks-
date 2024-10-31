@@ -109,6 +109,18 @@ You can access the Plant Disease Detection app directly from any device at the f
 ---
 
 ### 🚀 Running the App Locally
-**Start the Streamlit App**  
-   - Open a terminal, go to the `streamlit_app` folder,
-Happy diagnosing! 🌿
+1. **Start the Streamlit App**  
+   - Open a terminal, go to the `streamlit_app` folder, and run:
+     ```bash
+     cd path/to/your/project/streamlit_app
+     streamlit run app.py
+     ```
+
+---
+
+### 📘 Usage Instructions
+**Upload an Image**  
+   - Upload a leaf image in `.jpg`, `.jpeg`, or `.png` format.
+   
+**Detect Disease**  
+   - Click the **Detect** button to analyze the image and get a diagnosis.

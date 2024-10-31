@@ -74,45 +74,41 @@ The goal of this project is to develop a Streamlit application that enables user
 ### We can observe that though the evaluation scores for ResNet50 model compared to the ImprovedCNN model are slightly better, the predictions on new test images were more accurate with our custom ImprovedCNN model. Hence, I have used custom ImprovedCNN model in the streamlit app for disease detection. 
 
 ## User Guide
+Follow the steps below to set up, run, and use the app.
 
-This project uses deep learning to detect plant diseases based on leaf images. Follow the steps below to set up, run, and use the app.
+### 🌐 Access the App Online
+You can access the Plant Disease Detection app directly from any device at the following link:
+
+**[Plant Disease Detection App](https://plantsdiseasedetector.streamlit.app/)**
+
+---
 
 ### 📂 Dataset
+**Download the Dataset**  
+   - Get the plant disease dataset from Kaggle.
+   - Extract the downloaded zip file.
+   - This dataset consists of 38 classes (diseases or healthy state) of plant leaves.
 
-1. **Download the Dataset**  
-   - Get the plant disease dataset from [Kaggle](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset).
-   - Extract the zip file after downloading.
-   - This dataset consists of 38 classes(diseases or healthy state)
+---
 
 ### 💾 Pre-Trained Model Checkpoint
-
-1. **Download the Saved Model**  
-   - Download the model weights from [Google Drive](https://drive.google.com/drive/folders/1aV1jon0PozYPncxlGzSo71PAegrDk0EI)
+**Download the Saved Model**  
+   - Download the model weights from Google Drive.
    - Place the downloaded files in a folder named `saved_models` in the project’s root directory.
-   - The saved model that i used in the app is named as "trained_model.pth"
+   - Ensure the saved model file is named `"trained_model.pth"` for proper app functionality.
 
-### ⚙️ Installation
+---
 
-1. **Install Requirements**  
+### ⚙️ Installation (For Local Use)
+**Install Requirements**  
    - Navigate to the project’s root directory and install the required dependencies:
      ```bash
      pip install -r requirements.txt
      ```
 
-### 🚀 Running the App
-
-1. **Start the Streamlit App**  
-   - Open a terminal, go to the `streamlit_app` folder, and run:
-     ```bash
-     cd path/to/your/project/streamlit_app
-     streamlit run app.py
-     ```
-
-### 📘 Usage
-
-1. **Upload an Image**: Upload a leaf image in `.jpg`, `.jpeg`, or `.png` format.
-2. **Detect Disease**: Click **Detect** to analyze the image and get a diagnosis.
-
 ---
 
+### 🚀 Running the App Locally
+**Start the Streamlit App**  
+   - Open a terminal, go to the `streamlit_app` folder,
 Happy diagnosing! 🌿

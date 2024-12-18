@@ -1,4 +1,4 @@
-# Plant Disease Detection from Images
+# Plant Disease Detection From Images Using CNN
 ![banner](screenshots/img22.jpg)
 
 ## Objective

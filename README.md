@@ -89,7 +89,7 @@ You can access the Plant Disease Detection app directly from any device at the f
    - Get the plant disease dataset from Kaggle.
    - Extract the downloaded zip file.
    - This dataset consists of 38 classes (diseases or healthy state) of plant leaves.
-
+   **[Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)**
 ---
 
 ### 💾 Pre-Trained Model Checkpoint

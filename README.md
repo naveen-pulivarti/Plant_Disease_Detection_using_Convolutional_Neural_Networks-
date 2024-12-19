@@ -97,7 +97,7 @@ You can access the Plant Disease Detection app directly from any device at the f
    - Download the model weights from Google Drive.
    - Place the downloaded files in a folder named `saved_models` in the project’s root directory.
    - Ensure the saved model file is named `"trained_model.pth"` for proper app functionality.
-
+   **[Saved Model]([https://plantsdiseasedetector.streamlit.app/](https://drive.usercontent.google.com/download?id=1PLQ6k1ieFMvkrTy8raNvxTWXADZwhH5H))**
 ---
 
 ### ⚙️ Installation (For Local Use)
